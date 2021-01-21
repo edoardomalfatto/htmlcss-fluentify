@@ -12,9 +12,11 @@ header {
 .blu {
   background-color: rgb(61, 70, 182);
 }
-
+.green{
+  background-color: rgb(153, 231, 25);
+}
 .container {
-  width: 80%;
+  width: 95%;
   height: 100%;
   margin: 0 auto;
 }
@@ -36,7 +38,7 @@ header ul {
 
 .header_format{
   line-height: 10vh;
-  padding: 2vh 3vh 0 3vh;
+  padding: 2vh 1vh 0 1vh;
 }
 .a_format {
   text-decoration: none;
@@ -44,8 +46,16 @@ header ul {
   color:white;
 }
 .btn {
-
+border-radius: 10px;
+margin-top: 4vh;
+margin-left: 1vh;
+padding:1vh 3vh 1vh 3vh;
+line-height: 3vh;
 }
+#btn2 {
+border:white solid 1px;
+}
+
 .nav.left ul li {
  float:left;
 }
