@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  overflow:hidden;
+}
+
+.blu {
+  background-color: rgb(61, 70, 182);
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+/* .relative{
+  position: relative;
+} */
+
+#logo img {
+  float: left;
+  height: 10vh;
+}
+#logo .header_format{
+  padding: 1vh 10vh 1vh 0;
+}
+
+header ul {
+  list-style: none;
+}
+
+.header_format{
+  line-height: 10vh;
+  padding: 2vh 3vh 0 3vh;
+}
+.a_format {
+  text-decoration: none;
+  text-transform:uppercase;
+  color:white;
+}
+.btn {
+
+}
+.nav.left ul li {
+ float:left;
+}
+.nav.right ul li {
+ float:right;
+}
