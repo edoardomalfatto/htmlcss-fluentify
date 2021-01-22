@@ -80,6 +80,7 @@ border:white solid 1px;
 section {
   height: 80vh;
   position: relative;
+  overflow:hidden;
 }
 section img {
   width: 80%;
